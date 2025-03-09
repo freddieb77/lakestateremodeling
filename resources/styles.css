@@ -1,0 +1,154 @@
+html, main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+img {
+    margin: 10px auto;
+    height: auto;
+    width: auto;
+}
+
+ul {
+    text-align: right;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/*Sizing*/
+
+.container {
+    margin: 0 auto;
+}
+
+.spacer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main{
+    background-color: #0e42fe;
+}
+
+/*Header Section*/
+
+header {
+    padding: 30px 0px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+header li a {
+    color: #333;
+    margin: 0;
+    border: 0px;
+}
+
+/*Tagline Section*/
+
+#tagline {
+    background-color: #fff;
+    max-width: 1200px;
+    margin-left: 50px;
+}
+
+#tagline h2 {
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+#tagline h2 span {
+    color: #33b9ff;
+}
+
+#tagline p {
+    text-shadow: 0 0;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+}
+ 
+/*Banner Section*/
+
+#banner {
+    background-color: #147043;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Services Section*/
+
+.thumbnail {
+    background-color: #0e42fe;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#our-services {
+    padding: 20px;
+    background-color: #33b9ff;
+    margin: 0;
+    text-align: center;
+    padding: 20px
+}
+
+/*Our Team Section*/
+
+#our-team {
+    background-color: #147043;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/*Projects Section*/
+
+#projects {
+    background-color: #33b9ff;
+    padding: 40px;
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    padding: 60px 0 px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer a {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+address {
+    text-align: center;
+}
+
+
+
+
+

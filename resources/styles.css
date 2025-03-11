@@ -2,6 +2,9 @@ html, main {
     margin: 0;
     padding: 0;
     font-family: 'Libre Baskerville', sans-serif;
+    background-image: url("./pictures/maple_lake_banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 img {
@@ -30,7 +33,7 @@ h1 {
 }
 
 .main{
-    background-color: #0e42fe;
+    /* background-color: #0e42fe; */
 }
 
 /*Header Section*/
@@ -55,7 +58,7 @@ header li a {
 /*Tagline Section*/
 
 #tagline {
-    background-color: #fff;
+    /* background-color: #fff; */
     max-width: 75em;
     margin-left: 3.125em;
 }
@@ -79,7 +82,7 @@ header li a {
 /*Banner Section*/
 
 #banner {
-    background-color: #147043;
+    /* background-color: #147043; */
     color: #fff;
     padding: 1.25em;
     text-align: center;
@@ -88,7 +91,7 @@ header li a {
 /*Services Section*/
 
 .thumbnail {
-    background-color: #0e42fe;
+    /* background-color: #0e42fe; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -102,7 +105,7 @@ header li a {
 
 #our-services {
     padding: 1.25em;
-    background-color: #33b9ff;
+    /* background-color: #33b9ff; */
     margin: 0;
     text-align: center;
     padding: 1.25em;
@@ -111,7 +114,7 @@ header li a {
 /*Our Team Section*/
 
 #our-team {
-    background-color: #147043;
+    /* background-color: #147043; */
     padding: 1.25em;
     text-align: center;
     color: #fff;
@@ -120,7 +123,7 @@ header li a {
 /*Projects Section*/
 
 #projects {
-    background-color: #33b9ff;
+    /* background-color: #33b9ff; */
     padding: 2.5em;
     text-align: center;
 }

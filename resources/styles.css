@@ -84,7 +84,7 @@ header li a {
 
 #banner {
     /* background-color: #147043; */
-    color: #fff;
+    /* color: #666; */
     padding: 1.25em;
     text-align: center;
 }
@@ -120,7 +120,7 @@ header li a {
     /* background-color: #147043; */
     padding: 1.25em;
     text-align: center;
-    color: #fff;
+    /* color: #fff; */
 }
 
 /*Projects Section*/

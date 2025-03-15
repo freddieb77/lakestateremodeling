@@ -107,6 +107,7 @@ header li a {
 #our-services {
     padding: 1.25em;
     background-color: rgba(0, 0, 0, 0.6);
+    /* This rule make background transperent while allowing all child objects to not inherit */
     margin: 0;
     color: #fff;
     text-align: center;

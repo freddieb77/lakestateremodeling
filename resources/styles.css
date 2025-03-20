@@ -1,7 +1,9 @@
 html, main {
     margin: 0;
     padding: 0;
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Goudy Bookletter 1911', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-image: url("./pictures/maple_lake_banner.jpg");
     background-attachment: fixed;
     background-size: cover;

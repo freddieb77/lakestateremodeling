@@ -52,6 +52,7 @@ header {
     margin-left: 3.125em;
     margin-right: 3.125em; */
     margin: 0 auto;
+    background-image: linear-gradient(to right, #fff, #33b9ff, #0e42fe, #147043);
 
 }
 

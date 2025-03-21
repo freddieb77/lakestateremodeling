@@ -25,26 +25,34 @@ h1 {
 
 /*Sizing*/
 
-.container {
+/* Remove .container section */
+/* .container {
     margin: 0 auto;
-}
+} */
 
 .spacer {
     max-width: 75em;
     margin: auto;
 }
 
-.main{
-    /* background-color: #0e42fe; */
+/* Remove .main section */
+/* .main{
+    background-color: #0e42fe;
     opacity: 0.6;
-}
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    max-width: 1290px;
+} */
 
 /*Header Section*/
 
 header {
-    padding: 1.875em 0em 2.5em;
+    /* padding: 1.875em 0em 2.5em;
     margin-left: 3.125em;
-    margin-right: 3.125em;
+    margin-right: 3.125em; */
+    margin: 0 auto;
+
 }
 
 li {
@@ -54,8 +62,13 @@ li {
 
 header li a {
     color: #333;
-    margin: 0;
-    border: 0em;
+    /* margin: 0; */
+    /* border: 0em; */
+    padding: 10px 0px 5px 0px;
+}
+
+nav {
+    float: right;
 }
 
 /*Tagline Section*/

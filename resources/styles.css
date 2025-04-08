@@ -107,7 +107,7 @@ nav {
 
 /*Services Section*/
 
-.thumbnail {
+.list {
     /* background-color: #0e42fe; */
     display: flex;
     flex-wrap: wrap;
@@ -118,6 +118,12 @@ nav {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.col li {
+    display: block;
+    text-align: justify;
+    
 }
 
 #our-services {

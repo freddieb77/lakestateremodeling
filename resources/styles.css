@@ -62,7 +62,7 @@ li {
 }
 
 header li a {
-    color: white;
+    color: #fff;
     /* margin: 0; */
     /* border: 0em; */
     padding: 10px 0px 5px 0px;
@@ -82,7 +82,7 @@ nav {
 
 #tagline h2 {
     font-size: 3.125em;
-    margin-bottom: 4.375em;
+    margin-bottom: 2.375em;
 }
 
 #tagline h2 span {
@@ -100,7 +100,7 @@ nav {
 
 #banner {
     /* background-color: #147043; */
-    /* color: #666; */
+    color: #fff;
     padding: 1.25em;
     text-align: center;
 }
@@ -139,10 +139,11 @@ nav {
 /*Our Team Section*/
 
 #our-team {
-    /* background-color: #147043; */
+    /* background-color: #000; */
+    /* opacity: 0.6; */
     padding: 1.25em;
     text-align: center;
-    /* color: #fff; */
+    color: #fff;
 }
 
 /*Projects Section*/
@@ -151,6 +152,7 @@ nav {
     /* background-color: #33b9ff; */
     padding: 2.5em;
     text-align: center;
+    color: #fff;
 }
 
 /*Footer*/

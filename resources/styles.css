@@ -4,10 +4,11 @@ html, body {
     font-family: 'Goudy Bookletter 1911', sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url("./pictures/maple_lake_banner.jpg");
+    background-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 80%), url("./pictures/maple_lake_banner.jpg");
     background-attachment: fixed;
     background-size: cover;
-}
+}    
 
 img {
     margin: 0.625em auto;
@@ -52,7 +53,7 @@ header {
     margin-left: 3.125em;
     margin-right: 3.125em; */
     margin: 0 auto;
-    background-image: linear-gradient(to right, #fff, #33b9ff, #0e42fe, #147043);
+    /* background-image: linear-gradient(to right, #fff, #33b9ff, #0e42fe, #147043); */
 
 }
 
@@ -128,7 +129,7 @@ nav {
 
 #our-services {
     padding: 1.25em;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     /* This rule make background transparent while allowing all child objects to not inherit */
     margin: 0;
     color: #fff;
@@ -159,9 +160,9 @@ nav {
 
 footer {
     padding: 1.25em 0em;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 footer h3 {

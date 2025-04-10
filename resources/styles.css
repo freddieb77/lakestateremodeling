@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ html, body {
 }    
 
 img {
-    margin: 0.625em auto;
+    margin: 1rem 2rem;
     height: auto;
     width: auto;
 }

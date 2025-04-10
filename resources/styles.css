@@ -64,9 +64,9 @@ li {
 
 header li a {
     color: #fff;
-    /* margin: 0; */
-    /* border: 0em; */
-    padding: 10px 0px 5px 0px;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
 }
 
 nav {

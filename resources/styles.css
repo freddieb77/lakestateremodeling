@@ -26,11 +26,6 @@ h1 {
 
 /*Sizing*/
 
-/* Remove .container section */
-/* .container {
-    margin: 0 auto;
-} */
-
 .spacer {
     max-width: 75em;
     margin: auto;
@@ -66,7 +61,6 @@ nav {
 /*Tagline Section*/
 
 #tagline {
-    /* background-color: #fff; */
     max-width: 75em;
     margin-left: 3.125em;
 }
@@ -140,8 +134,6 @@ button {
 /*Our Team Section*/
 
 #our-team {
-    /* background-color: #000; */
-    /* opacity: 0.6; */
     padding: 1.25em;
     text-align: center;
     color: #fff;

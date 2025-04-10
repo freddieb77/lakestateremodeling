@@ -5,8 +5,7 @@ html, body {
     font-family: 'Goudy Bookletter 1911', sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: 
-    linear-gradient(to top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 80%), url("./pictures/maple_lake_banner.jpg");
+    background-image: url("./pictures/maple_lake_banner.jpg");
     background-attachment: fixed;
     background-size: cover;
 }    

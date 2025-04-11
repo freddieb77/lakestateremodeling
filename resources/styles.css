@@ -112,12 +112,16 @@ button {
 .col {
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
+}
+
+.col ul {
+    padding: 0;
 }
 
 .col li {
     display: block;
-    text-align: justify;
+    text-align: center;
     
 }
 

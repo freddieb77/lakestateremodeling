@@ -113,6 +113,9 @@ button {
     display: inline-flex;
     flex-direction: column;
     flex: 1;
+    border-color:#33b9ff;
+    border-style: solid;
+    border-radius: 1em;
 }
 
 .col ul {

@@ -11,7 +11,7 @@ html, body {
 }    
 
 img {
-    margin: 1rem 2rem;
+    margin: 1em 3.125em;
     height: auto;
     width: auto;
 }
@@ -67,7 +67,7 @@ nav {
 
 #tagline h2 {
     font-size: 3.125em;
-    margin-bottom: 2.375em;
+    margin-bottom: 1.375em;
 }
 
 #tagline h2 span {
@@ -85,9 +85,9 @@ nav {
 
 #banner {
     /* background-color: #147043; */
-    color: #fff;
+    color: #000;
     padding: 1.25em;
-    text-align: center;
+    margin: 3.125em;
 }
 
 button {
@@ -136,7 +136,7 @@ button {
 #our-team {
     padding: 1.25em;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 /*Projects Section*/
@@ -145,7 +145,7 @@ button {
     /* background-color: #33b9ff; */
     padding: 2.5em;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 /*Footer*/

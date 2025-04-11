@@ -116,6 +116,7 @@ button {
     border-color:#33b9ff;
     border-style: solid;
     border-radius: 1em;
+    margin: 1rem;
 }
 
 .col ul {

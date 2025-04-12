@@ -100,7 +100,7 @@ nav {
  
 /*Banner Section*/
 
-#banner, #about, #services, #team{
+#banner, #about-page, #services-page, #our-team-page, #projects-page{
     /* background-color: #147043; */
     color: #000;
     padding: 1.25em;

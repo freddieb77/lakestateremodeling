@@ -54,6 +54,23 @@ header li a {
     font-size: 1.5rem;
 }
 
+li a:link {
+    color: #fff;
+}
+
+li a:visited {
+    color: #0e42fe;
+}
+
+li a:hover {
+    color: #33b9ff;
+    font-size: 2rem;
+}
+
+li a:active {
+    color: #147043;
+}
+
 nav {
     float: right;
 }

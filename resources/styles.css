@@ -102,7 +102,8 @@ nav {
 
 #tagline h2 {
     font-size: 3.125em;
-    color: #444444
+    color: #444444;
+    margin: 2rem;
 }
 
 #tagline h2 span {
@@ -123,14 +124,15 @@ nav {
     /* This rule make background transparent while allowing all child objects to not inherit */
     color: #fff;
     text-align: center;
+    padding: .5rem;
 }
 
 #our-services, h2 {
-    margin: .5rem;
+    margin: 1rem;
 }
 
 .spacer {
-    max-width: 75em;
+    max-width: 100rem;
     margin: auto;
 }
 

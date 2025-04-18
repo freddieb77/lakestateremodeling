@@ -14,7 +14,7 @@ html, body {
 
 .page-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;fred.barrett@
     min-height: 100vh;
 }
 
@@ -89,6 +89,7 @@ nav {
 }
 
 #tagline a:hover {
+    background: #777;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
   }
@@ -102,7 +103,7 @@ nav {
 }
 
 #tagline h2 {
-    font-size: 3.125em;
+    font-size: 3.125em;fred.barrett@
     color: #444444;
     margin: 2rem;
 }
@@ -213,3 +214,74 @@ footer a {
 address {
     text-align: center;
 }
+
+/* contact us quote form */
+
+form { max-width: 420px; margin: 50px auto; }
+
+.feedback-input {
+    color: #444444;
+    font-family: 'Goudy Bookletter 1911', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: .5rem;
+    line-height: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #7c7c7c;
+    transition: all 0.3s;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus { border: 2px solid #555; }
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    font-family: 'Goudy Bookletter 1911', sans-serif;
+    width: 100%;
+    background: #3c54a5;
+    border-radius: .5rem;
+    border: 0;
+    cursor: pointer;
+    color: lightgray;
+    font-size: 1.5rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover { 
+    background: #777; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#responseMessage {
+    border-radius: .5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#responseMessage.success {
+    color: #008000; 
+  }
+  
+  #responseMessage.error {
+    color: #FF0000; 
+  }
+  
+  #responseMessage.show {
+    opacity: 1;
+  }

@@ -9,6 +9,7 @@ html, body {
     /* background-attachment: fixed; */
     /* background-size: cover; */
     height: 100%;
+    background-color: lightgray;
 }    
 
 .page-container {
@@ -83,7 +84,7 @@ nav {
     font-weight: 600;
     font-size: 1.5rem;
     margin-top: 1rem;
-    color: #fff;
+    color: lightgray;
     text-decoration: none;
 }
 
@@ -120,9 +121,9 @@ nav {
 /*Services Section*/
 
 #our-services {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(68, 68, 68, 0.8);
     /* This rule make background transparent while allowing all child objects to not inherit */
-    color: #fff;
+    color: lightgray;
     text-align: center;
     padding: .5rem;
 }
@@ -192,8 +193,8 @@ nav {
 
 footer {
     padding: 1em 0em;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    background-color: rgba(68, 68, 68, 0.8);
+    color: lightgray;
 }
 
 footer h3 {
@@ -206,7 +207,7 @@ footer a {
     font-size: 0.75em;
     margin-bottom: 1.25em;
     text-align: center;
-    color: #fff;
+    color: lightgray;
 }
 
 address {

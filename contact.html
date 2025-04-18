@@ -36,8 +36,30 @@
                 </section>
 
                 <section id="contact-page">
-                    <h2>Lakestate Remodeling</h2>
-                    <p>This will be the Contact Us/Get a Quote Form</p>
+                    <h2>Contact us to get a quote</h2>
+                    <div id="responseMessage"></div> <!-- Display API response message -->
+
+                    <form id="contact-form">
+                        <label for="fname">First Name*</label>
+                        <input name="fname" type="text" id="fname" class="feedback-input" placeholder="First Name" required /><br>
+                        <label for="lname">Last Name*</label>
+                        <input name="lname" type="text" id="lname" class="feedback-input" placeholder="Last Name" required /><br>
+                        <label for="email">Email*</label>
+                        <input name="email" type="email" id="email" class="feedback-input" placeholder="Email" required /><br>
+                        <label for="phone">Phone*</label>
+                        <input name="phone" type="tel" id="phone" class="feedback-input" placeholder="Phone" pattern="[0-9] {3}-[0-9] {2}-[0-9] {3}" required /><br>
+                        <label for="services">Services*</label>
+                        <select name="services" id="services" class="feedback-input">
+                            <option value=""></option>
+                            <option value="kitchen remodel">Kitchen Remodel</option>
+                            <option value="bathroom remodel">Bathroom Remodel</option>
+                            <option value="basement remodel">Basement Remodel</option>
+                            <option value="basement finish">Basement Finish</option>
+                        </select><br>
+                        <label for="message">Project Summary</label>
+                        <textarea name="message" id="message" class="feedback-input" placeholder="Summary" required></textarea><br>
+                        <input type="submit" value="SUBMIT" />
+                    </form>
                 </section>
             </main>    
         </div>

@@ -14,7 +14,7 @@ html, body {
 
 .page-container {
     display: flex;
-    flex-direction: column;fred.barrett@
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -103,7 +103,7 @@ nav {
 }
 
 #tagline h2 {
-    font-size: 3.125em;fred.barrett@
+    font-size: 3.125em;
     color: #444444;
     margin: 2rem;
 }
